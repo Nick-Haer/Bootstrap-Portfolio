@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./pictures/qbkls.png");
+}
+
+/* header {
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 5px;
+    display: flex;
+
+} */
+
+#myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    justify-content: center;
+    padding: 20px;
+}
+
+#about {
+    color: #4aaaa5;
+    font-size: 2rem;
+}
+
+.main {
+    /* width: 960px;
+    margin: 0 auto; */
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-top: 40px;
+    padding: 0 20px 20px;;
+    line-height: 2;
+    /* padding-right: 200px; */
+}
+
+/* nav {
+    align-self: center;
+    margin-left: auto;
+    justify-content: space-between;
+    position: relative;
+    right: 350px;
+    width: 200px;
+} */
+
+#navlines {
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 10px;
+    border-right: 3px solid lightgray;
+    float: left;
+    padding-right: 10px;
+
+}
+
+footer {
+    background-color: #666666;
+    padding: 35px;
+    border-top: #4aaaa5 solid 5px;
+    /* margin-top: 250px; */
+    width: 100%;
+}
+
+#portfoot {
+    margin-top: 20px;
+}
+
+#submitbutton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.ppicture {
+    position: relative; 
+    margin: 20px;
+    display: inline-block;
+}
+
+.picturetext {
+    position: absolute; 
+    bottom: 35px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+}
+
+a:hover {
+    color: black;
+}
