@@ -123,3 +123,11 @@ a:hover {
 #horizontalrow {
     border: #4a64aa .5px solid;
 }
+
+.portimage {
+    height: 250px;
+}
+
+.resizebody {
+    height: 380px;
+}
