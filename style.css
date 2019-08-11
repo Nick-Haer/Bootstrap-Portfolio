@@ -4,7 +4,9 @@
 }
 
 body {
-    background-image: url("./pictures/qbkls.png");
+    background-image: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2018/09/28/digital-remains-untapped-by-drinks-firms/8597278-1-eng-GB/Digital-remains-untapped-by-drinks-firms_wrbm_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* header {
@@ -15,8 +17,8 @@ body {
 } */
 
 #myname {
-    background-color: #4aaaa5;
-    color: #ffffff;
+    background-color: #4a64aa;
+    color: lightgrey;
     justify-content: center;
     padding: 20px;
 }
@@ -47,10 +49,14 @@ body {
 } */
 
 #navlines {
-    border-left: 2px solid lightgray;
-    border-right: 2px solid lightgray;
+    border-left: 2px solid #4a64aa;
+    border-right: 2px solid #4a64aa;
     padding-left: 13px;
     padding-right: 13px;
+}
+
+.navtext {
+    color: lightgrey;
 }
 
 .floatleft {
@@ -63,15 +69,12 @@ body {
 }
 
 footer {
-    background-color: #666666;
+    background-color: #4a64aa;
     padding: 35px;
-    border-top: #4aaaa5 solid 5px;
     /* margin-top: 250px; */
     width: 100%;
-}
-
-#portfoot {
-    margin-top: 20px;
+    position: relative;
+    bottom: 0px;
 }
 
 #submitbutton {
@@ -79,6 +82,15 @@ footer {
     color: #ffffff;
     padding: 10px;
     margin-top: 10px;
+}
+
+#submitbutton:hover {
+    color: lightgray;
+}
+
+#contactinfo {
+    border: #4a64aa 2px solid;
+    padding: 5px;
 }
 
 .ppicture {
@@ -98,7 +110,7 @@ footer {
 }
 
 a:hover {
-    color: black;
+    color: #4a64aa;
 }
 
 .picbutton {
@@ -106,4 +118,8 @@ a:hover {
     position: absolute; 
     bottom: 10px;
     width: 200px;
+}
+
+#horizontalrow {
+    border: #4a64aa .5px solid;
 }
