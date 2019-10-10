@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "This project showcases another stage of my web developmentjourney. Made using bootstrap, this site is resposive on mobile, and serves to provide information about me, my motivations, and my projects. Find the deployed version here https://nick-haer.github.io/Bootstrap-Portfolio/",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Haer/Bootstrap-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-Haer/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nick-Haer/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.1.0"
+  }
+}

@@ -131,3 +131,20 @@ a:hover {
 .resizebody {
     height: 380px;
 }
+
+.card {
+    border: solid black 2px;
+}
+
+.portCard {
+    width: 20rem;
+}
+
+.linksButton {
+    width: 100%;
+}
+
+.descriptions {
+    position: absolute;
+    bottom: 15px;
+}
