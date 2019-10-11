@@ -148,3 +148,6 @@ a:hover {
     position: absolute;
     bottom: 15px;
 }
+.siteCard {
+    background-image: linear-gradient(lightgray, rgb(206, 203, 203));
+}
